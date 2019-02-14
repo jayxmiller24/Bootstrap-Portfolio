@@ -1,0 +1,15 @@
+img {
+    transform: rotate(180deg);
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.clearfix::after {
+    content="";
+    display:table;
+    clear:both;
+}
+
+.footer {
+    background: #343a40;
+}
