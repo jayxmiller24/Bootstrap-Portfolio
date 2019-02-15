@@ -1,8 +1,16 @@
+body {
+    background-image: url("images/crosslinedots.png");
+    background-position: left;
+
+}
 img {
     transform: rotate(180deg);
     width: 200px;
     height: 200px;
     float: left;
+}
+.container{
+    background: white;
 }
 .clearfix::after {
     content="";
@@ -12,4 +20,6 @@ img {
 
 .footer {
     background: #343a40;
+    margin-top: 15px;
+   
 }
