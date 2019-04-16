@@ -5,21 +5,38 @@ body {
 }
 img {
     transform: rotate(180deg);
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     float: left;
 }
 .container{
     background: white;
+height: 960px;
 }
 .clearfix::after {
-    content="";
-    display:table;
+    content= "";
+    display: table;
     clear:both;
 }
 
 .footer {
     background: #343a40;
     margin-top: 15px;
+
    
 }
+.btn-linkedin {
+    background: rgb(2, 18, 26);
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
